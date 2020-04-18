@@ -1,0 +1,227 @@
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.text{
+  font-size:25px;  
+  text-shadow: 2px 2px 10px lightgray;
+}
+
+.button{
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px ;
+  box-shadow: 2px 2px 10px black;
+  width:150px;
+}
+
+.button:hover{
+  background-color: dodgerblue;
+}
+
+button:disabled:hover{
+  background-color: white;
+}
+
+.col-md-12{
+  padding: 10px 10px 10px 10px;
+}
+
+.colorx{
+  text-shadow: 2px 2px 10px dodgerblue;
+}
+
+.coloro{
+  text-shadow: 2px 2px 10px orange;
+}
+
+.radiox{
+  margin-right: 55px;
+  height: 25px;
+  width: 25px;
+}
+
+.radioo{
+  margin-left: 55px;
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+}
+
+.space{
+  padding-top:80px
+}
+
+.box-1{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-top: 0;
+  border-left: 0;
+  border-width: 1px;
+  border-color: lightgrey;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+.box-2{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-top: 0;
+  border-width: 1px;
+  border-color: lightgrey;
+  margin-top:10px;
+}
+
+.box-3{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-top: 0;
+  border-right: 0;
+  border-width: 1px;
+  border-color: lightgrey;
+  margin-top:10px;
+}
+
+.box-4{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-left: 0;
+  border-width: 1px;
+  border-color: lightgrey;
+  margin-left:10px;
+}
+
+.box-5{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+.box-6{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-right: 0;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+.box-7{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-left: 0;
+  border-bottom: 0;
+  border-width: 1px;
+  border-color: lightgrey;
+  margin-left:10px;
+}
+
+.box-8{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-bottom: 0;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+.box-9{
+  border-style: solid;
+  height:70px;
+  width: 70px;
+  border-right: 0;
+  border-bottom: 0;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+.setting{
+  background-color: lightgray;
+  border-radius: 30px;
+  padding: 2px 2px 2px 2px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 250px; 
+  box-shadow: 1px 1px 10px lightgrey;
+}
+
+.setting1{
+  background-color: lightgray;
+  border-radius: 30px;
+  padding: 2px 2px 2px 2px;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top:80PX;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 1px 1px 10px lightgrey;
+}
+
+.center{
+  width: 230px;
+  height: 230px;
+  background-color: whitesmoke;
+  position: absolute;
+  top:5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;    
+  margin: auto;
+  margin-top:1px;
+  border-radius: 7px;
+  }
+
+.lstyle{
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;    
+  margin: auto;
+  margin-top: 100px;
+}
+
+.player1{
+  padding: 5px 5px 5px 5px;
+}
+
+.player2{
+  padding: 5px 5px 5px 5px;
+}
+
+.score{
+  border-radius: 20px;
+  border-style: inset;
+  background-color: azure;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.reset{
+  color: black;
+  background-color: white;
+  margin-top: 220px;
+  border-radius: 30px;
+}
